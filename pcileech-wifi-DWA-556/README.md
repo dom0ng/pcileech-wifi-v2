@@ -2,7 +2,7 @@
 pcileech-fpga with wireless card emulation
 
 # wifi adapter, but not really
-![screenshot](https://i.imgur.com/Ri9IEXb.png)
+![screenshot](https://i.imgur.com/kL8ozgs.png)
 
 # Usage
 This firmware was created for researching purposes only.  
