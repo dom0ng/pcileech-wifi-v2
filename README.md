@@ -1,4 +1,4 @@
-# pcileech-wifi
+# pcileech-wifi-v2
 pcileech-fpga with wireless card emulation
 
 # wifi adapter, but not really
