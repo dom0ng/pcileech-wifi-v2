@@ -27,3 +27,7 @@ Good job again.
 
 
 Credit : ekknod, Ulf Frisk
+
+
+Update : detected by drvscan as 12/07/2024 :-) I let you figure out alone
+drvscan will detect 99% of lazy firmware. this one was a lazy project (aroun 25min to get it done "right")
