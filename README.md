@@ -21,6 +21,8 @@ The real device is blocked without wifi connection tho.
 Faceit dosn't have technology to differenciate between the real device and the rogue cloned firmware.
 They have decided to totally block this device based on his vid/pid or configuration space.
 
+Faceit introduced drvscan-like tech, checking for active connection. The statement above is outdated.
+
 Blocking an orignal and legal wifi card. Good job to FACEIT.
 They also block original and legal capture card like Avermedia GC573.
 Good job again.
