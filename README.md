@@ -17,19 +17,7 @@ It work on VANGUARD on specific AMD motherboard (no idea why, vanilla firmware o
 Otherwise, VANGUARD block it on 99% of motherboards, when the real device is not blocked.
 The real device is blocked without wifi connection tho.
 
-
-Faceit dosn't have technology to differenciate between the real device and the rogue cloned firmware.
-They have decided to totally block this device based on his vid/pid or configuration space.
-
-Faceit introduced drvscan-like tech recently, checking for active connection. The statement above is outdated.
-
-Blocking an orignal and legal wifi card. Good job to FACEIT.
-They also block original and legal capture card like Avermedia GC573.
-Good job again.
+Faceit introduced drvscan-like tech recently, checking for active connection (WMI interface)
 
 
 Credit : ekknod, Ulf Frisk
-
-
-Update : detected by drvscan as 12/07/2024 :-) I let you figure out alone
-drvscan will detect 99% of lazy firmware. this one was a lazy project (aroun 25min to get it done "right")
