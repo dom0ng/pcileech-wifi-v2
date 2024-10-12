@@ -74,13 +74,13 @@ module pcie_7x_0_core_top # (
 
   parameter         ALLOW_X8_GEN2 = "FALSE",
   parameter         PIPE_PIPELINE_STAGES = 1,
-  parameter [11:0]  AER_BASE_PTR = 12'h100,
+  parameter [11:0]  AER_BASE_PTR = 12'h000,
   parameter         AER_CAP_ECRC_CHECK_CAPABLE = "FALSE",
   parameter         AER_CAP_ECRC_GEN_CAPABLE = "FALSE",
   parameter         AER_CAP_MULTIHEADER = "FALSE",
-  parameter [11:0]  AER_CAP_NEXTPTR = 12'h140,
+  parameter [11:0]  AER_CAP_NEXTPTR = 12'h000,
   parameter [23:0]  AER_CAP_OPTIONAL_ERR_SUPPORT = 24'h000000,
-  parameter         AER_CAP_ON = "TRUE",
+  parameter         AER_CAP_ON = "FALSE",
   parameter         AER_CAP_PERMIT_ROOTERR_UPDATE = "FALSE",
 
   parameter [31:0]  BAR0 = 32'hFFE00000,
@@ -114,9 +114,9 @@ module pcie_7x_0_core_top # (
   parameter         DISABLE_LANE_REVERSAL = "TRUE",
   parameter         DISABLE_RX_POISONED_RESP = "FALSE",
   parameter         DISABLE_SCRAMBLING = "FALSE",
-  parameter [11:0]  DSN_BASE_PTR = 12'h140,
-  parameter [11:0]  DSN_CAP_NEXTPTR = 12'h150,
-  parameter         DSN_CAP_ON = "TRUE",
+  parameter [11:0]  DSN_BASE_PTR = 12'h000,
+  parameter [11:0]  DSN_CAP_NEXTPTR = 12'h000,
+  parameter         DSN_CAP_ON = "FALSE",
 
   parameter [10:0]  ENABLE_MSG_ROUTE = 11'b00000000000,
   parameter         ENABLE_RX_TD_ECRC_TRIM = "FALSE",
@@ -232,8 +232,8 @@ module pcie_7x_0_core_top # (
   parameter         USER_CLK_FREQ = 1,
   parameter         USER_CLK2_DIV2 = "FALSE",
 
-  parameter [11:0]  VC_BASE_PTR = 12'h140,
-  parameter [11:0]  VC_CAP_NEXTPTR = 12'h160,
+  parameter [11:0]  VC_BASE_PTR = 12'h000,
+  parameter [11:0]  VC_CAP_NEXTPTR = 12'h000,
   parameter         VC_CAP_ON = "FALSE",
   parameter         VC_CAP_REJECT_SNOOP_TRANSACTIONS = "FALSE",
 
@@ -247,7 +247,7 @@ module pcie_7x_0_core_top # (
   parameter         VC0_TOTAL_CREDITS_PH = 4,
   parameter         VC0_TX_LASTPACKET = 29,
 
-  parameter [11:0]  VSEC_BASE_PTR = 12'h170,
+  parameter [11:0]  VSEC_BASE_PTR = 12'h000,
   parameter [11:0]  VSEC_CAP_NEXTPTR = 12'h000,
   parameter         VSEC_CAP_ON = "FALSE",
 
